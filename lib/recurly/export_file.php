@@ -1,12 +1,13 @@
 <?php
 
-class Recurly_Note extends Recurly_Resource
+class Recurly_ExportFile extends Recurly_Resource
 {
   protected function getNodeName() {
-    return 'note';
+    return 'export_file';
   }
 
   protected function getWriteableAttributes() {
     return array();
   }
 }
+
